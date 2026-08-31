@@ -2,7 +2,7 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20260831",
-  "now_jst": "2026-08-31T19:06:43+09:00",
+  "now_jst": "2026-08-31T19:06:59+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
@@ -71,17 +71,18 @@
         "weather": true
       },
       "source": {
-        "entry": "BoatraceOpenAPI",
-        "st": "BoatraceOpenAPI",
-        "time": "BoatraceOpenAPI",
-        "tilt": "BoatraceOpenAPI",
-        "weather": "BoatraceOpenAPI"
+        "time": "BoatraceCSV/tkz",
+        "tilt": "BoatraceCSV/tkz",
+        "entry": "BoatraceCSV/stt",
+        "st": "BoatraceCSV/stt",
+        "weather": "BoatraceCSV/sui"
       },
       "weather": {
+        "observed_at": "1846",
         "wind_speed_m": 2,
-        "wind_direction_number": 7,
+        "wind_direction": "3",
         "wave_cm": 2,
-        "weather_number": 1,
+        "weather": "1",
         "air_temp_c": 30,
         "water_temp_c": 31
       },
@@ -167,38 +168,39 @@
           0
         ],
         "weather": {
+          "observed_at": "1846",
           "wind_speed_m": 2,
-          "wind_direction_number": 7,
+          "wind_direction": "3",
           "wave_cm": 2,
-          "weather_number": 1,
+          "weather": "1",
           "air_temp_c": 30,
           "water_temp_c": 31
         },
         "source": {
-          "entry": "BoatraceOpenAPI",
-          "st": "BoatraceOpenAPI",
-          "time": "BoatraceOpenAPI",
-          "tilt": "BoatraceOpenAPI",
-          "weather": "BoatraceOpenAPI"
+          "time": "BoatraceCSV/tkz",
+          "tilt": "BoatraceCSV/tkz",
+          "entry": "BoatraceCSV/stt",
+          "st": "BoatraceCSV/stt",
+          "weather": "BoatraceCSV/sui"
         },
         "diagnostics": [
           {
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/08/31.csv",
-            "bytes": 24437
+            "bytes": 24617
           },
           {
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/08/31.csv",
-            "bytes": 15224
+            "bytes": 15341
           },
           {
             "route": "csv_sui",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/sui/2026/08/31.csv",
-            "bytes": 13067
+            "bytes": 13164
           }
         ],
         "complete": {
@@ -392,19 +394,19 @@
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/08/31.csv",
-            "bytes": 24437
+            "bytes": 24617
           },
           {
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/08/31.csv",
-            "bytes": 15224
+            "bytes": 15341
           },
           {
             "route": "csv_sui",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/sui/2026/08/31.csv",
-            "bytes": 13067
+            "bytes": 13164
           }
         ],
         "complete": {
@@ -578,19 +580,19 @@
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/08/31.csv",
-            "bytes": 24437
+            "bytes": 24617
           },
           {
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/08/31.csv",
-            "bytes": 15224
+            "bytes": 15341
           },
           {
             "route": "csv_sui",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/sui/2026/08/31.csv",
-            "bytes": 13067
+            "bytes": 13164
           }
         ],
         "complete": {
@@ -642,7 +644,7 @@
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-08-31T19:06:44+09:00",
+    "generated_at_jst": "2026-08-31T19:07:01+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
