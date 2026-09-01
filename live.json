@@ -2,7 +2,7 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20260901",
-  "now_jst": "2026-09-01T17:14:50+09:00",
+  "now_jst": "2026-09-01T17:15:50+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
@@ -10,7 +10,7 @@
       "jcd": "19",
       "rno": 5,
       "closed_at": "2026-09-01 17:19:00",
-      "remain_minutes": 4,
+      "remain_minutes": 3,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -224,7 +224,7 @@
       "jcd": "16",
       "rno": 12,
       "closed_at": "2026-09-01 17:20:00",
-      "remain_minutes": 5,
+      "remain_minutes": 4,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -438,8 +438,8 @@
       "jcd": "12",
       "rno": 6,
       "closed_at": "2026-09-01 17:25:00",
-      "remain_minutes": 10,
-      "live_status": "PARTIAL_LIVE_PACKET",
+      "remain_minutes": 9,
+      "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
         "date": "2026-09-01",
@@ -486,19 +486,22 @@
         }
       },
       "display": {
-        "TIME": "1:- 2:- 3:- 4:- 5:- 6:-",
-        "ST": "1:- 2:- 3:- 4:- 5:- 6:-",
-        "ENTRY": "-",
+        "TIME": "1:6.86 2:6.8 3:6.93 4:6.85 5:6.9 6:6.94",
+        "ST": "1:.21 2:.11 3:.31 4:.37 5:.15 6:.09",
+        "ENTRY": "1-2-3-4-5-6",
         "TILT": "1:-0.5 2:-0.5 3:-0.5 4:0 5:0 6:-0.5"
       },
       "complete": {
-        "time": false,
-        "st": false,
-        "entry": false,
+        "time": true,
+        "st": true,
+        "entry": true,
         "tilt": true,
         "weather": true
       },
       "source": {
+        "entry": "BoatraceOpenAPI",
+        "st": "BoatraceOpenAPI",
+        "time": "BoatraceOpenAPI",
         "tilt": "BoatraceOpenAPI",
         "weather": "BoatraceOpenAPI"
       },
@@ -511,7 +514,7 @@
         "water_temp_c": 33
       },
       "packet": {
-        "ok": false,
+        "ok": true,
         "race_key": "20260901-12-06",
         "race_code": "202609011206",
         "race_lock": {
@@ -560,28 +563,28 @@
           }
         },
         "exhibition_time": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          6.86,
+          6.8,
+          6.93,
+          6.85,
+          6.9,
+          6.94
         ],
         "exhibition_st": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          ".21",
+          ".11",
+          ".31",
+          ".37",
+          ".15",
+          ".09"
         ],
         "exhibition_entry": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
         "tilt": [
           -0.5,
@@ -600,6 +603,9 @@
           "water_temp_c": 33
         },
         "source": {
+          "entry": "BoatraceOpenAPI",
+          "st": "BoatraceOpenAPI",
+          "time": "BoatraceOpenAPI",
           "tilt": "BoatraceOpenAPI",
           "weather": "BoatraceOpenAPI"
         },
@@ -624,17 +630,17 @@
           }
         ],
         "complete": {
-          "time": false,
-          "st": false,
-          "entry": false,
+          "time": true,
+          "st": true,
+          "entry": true,
           "tilt": true,
           "weather": true
         },
-        "status": "PARTIAL_LIVE_PACKET",
+        "status": "VERIFIED_LIVE_PACKET",
         "display": {
-          "TIME": "1:- 2:- 3:- 4:- 5:- 6:-",
-          "ST": "1:- 2:- 3:- 4:- 5:- 6:-",
-          "ENTRY": "-",
+          "TIME": "1:6.86 2:6.8 3:6.93 4:6.85 5:6.9 6:6.94",
+          "ST": "1:.21 2:.11 3:.31 4:.37 5:.15 6:.09",
+          "ENTRY": "1-2-3-4-5-6",
           "TILT": "1:-0.5 2:-0.5 3:-0.5 4:0 5:0 6:-0.5"
         }
       }
@@ -644,7 +650,7 @@
     {
       "route": "OpenAPI_today",
       "http": 200,
-      "bytes": 1318179
+      "bytes": 1318177
     }
   ],
   "status": "PRELOAD_READY",
@@ -653,26 +659,26 @@
       "slot": 1,
       "race": "19-5R",
       "close": "2026-09-01 17:19:00",
-      "remain_min": 4,
+      "remain_min": 3,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 2,
       "race": "16-12R",
       "close": "2026-09-01 17:20:00",
-      "remain_min": 5,
+      "remain_min": 4,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 3,
       "race": "12-6R",
       "close": "2026-09-01 17:25:00",
-      "remain_min": 10,
-      "live": "PARTIAL_LIVE_PACKET"
+      "remain_min": 9,
+      "live": "VERIFIED_LIVE_PACKET"
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-09-01T17:14:52+09:00",
+    "generated_at_jst": "2026-09-01T17:15:52+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
