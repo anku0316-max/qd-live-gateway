@@ -2,7 +2,7 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20260902",
-  "now_jst": "2026-09-02T22:10:50+09:00",
+  "now_jst": "2026-09-02T22:11:50+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
@@ -10,7 +10,7 @@
       "jcd": "24",
       "rno": 11,
       "closed_at": "2026-09-02 22:16:00",
-      "remain_minutes": 5,
+      "remain_minutes": 4,
       "live_status": "PARTIAL_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -73,9 +73,9 @@
       "source": {
         "time": "BoatraceCSV/tkz",
         "tilt": "BoatraceCSV/tkz",
-        "weather": "BoatraceCSV/sui",
-        "entry": "BoatraceOpenAPI",
-        "st": "BoatraceOpenAPI"
+        "entry": "BoatraceCSV/stt",
+        "st": "BoatraceCSV/stt",
+        "weather": "BoatraceCSV/sui"
       },
       "weather": {
         "observed_at": "2128",
@@ -179,9 +179,9 @@
         "source": {
           "time": "BoatraceCSV/tkz",
           "tilt": "BoatraceCSV/tkz",
-          "weather": "BoatraceCSV/sui",
-          "entry": "BoatraceOpenAPI",
-          "st": "BoatraceOpenAPI"
+          "entry": "BoatraceCSV/stt",
+          "st": "BoatraceCSV/stt",
+          "weather": "BoatraceCSV/sui"
         },
         "diagnostics": [
           {
@@ -194,7 +194,7 @@
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/09/02.csv",
-            "bytes": 17507
+            "bytes": 17614
           },
           {
             "route": "csv_sui",
@@ -224,7 +224,7 @@
       "jcd": "24",
       "rno": 12,
       "closed_at": "2026-09-02 22:41:00",
-      "remain_minutes": 30,
+      "remain_minutes": 29,
       "live_status": "FIELD_UNRESOLVED",
       "race_lock": {
         "ok": true,
@@ -380,7 +380,7 @@
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/09/02.csv",
-            "bytes": 17507
+            "bytes": 17614
           },
           {
             "route": "csv_sui",
@@ -419,19 +419,19 @@
       "slot": 1,
       "race": "24-11R",
       "close": "2026-09-02 22:16:00",
-      "remain_min": 5,
+      "remain_min": 4,
       "live": "PARTIAL_LIVE_PACKET"
     },
     {
       "slot": 2,
       "race": "24-12R",
       "close": "2026-09-02 22:41:00",
-      "remain_min": 30,
+      "remain_min": 29,
       "live": "FIELD_UNRESOLVED"
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-09-02T22:10:51+09:00",
+    "generated_at_jst": "2026-09-02T22:11:50+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
