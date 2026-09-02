@@ -2,7 +2,7 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20260902",
-  "now_jst": "2026-09-02T10:05:49+09:00",
+  "now_jst": "2026-09-02T10:06:49+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
@@ -10,7 +10,7 @@
       "jcd": "21",
       "rno": 5,
       "closed_at": "2026-09-02 10:17:00",
-      "remain_minutes": 11,
+      "remain_minutes": 10,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -79,11 +79,11 @@
       },
       "weather": {
         "wind_speed_m": 1,
-        "wind_direction_number": 1,
+        "wind_direction_number": 3,
         "wave_cm": 1,
         "weather_number": 1,
         "air_temp_c": 31.8,
-        "water_temp_c": 31.1
+        "water_temp_c": 31.2
       },
       "packet": {
         "ok": true,
@@ -168,11 +168,11 @@
         ],
         "weather": {
           "wind_speed_m": 1,
-          "wind_direction_number": 1,
+          "wind_direction_number": 3,
           "wave_cm": 1,
           "weather_number": 1,
           "air_temp_c": 31.8,
-          "water_temp_c": 31.1
+          "water_temp_c": 31.2
         },
         "source": {
           "entry": "BoatraceOpenAPI",
@@ -222,7 +222,7 @@
       "jcd": "18",
       "rno": 5,
       "closed_at": "2026-09-02 10:29:00",
-      "remain_minutes": 23,
+      "remain_minutes": 22,
       "live_status": "PARTIAL_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -428,8 +428,8 @@
       "jcd": "08",
       "rno": 1,
       "closed_at": "2026-09-02 10:34:00",
-      "remain_minutes": 28,
-      "live_status": "FIELD_UNRESOLVED",
+      "remain_minutes": 27,
+      "live_status": "PARTIAL_LIVE_PACKET",
       "race_lock": {
         "ok": true,
         "date": "2026-09-02",
@@ -486,10 +486,19 @@
         "st": false,
         "entry": false,
         "tilt": false,
-        "weather": false
+        "weather": true
       },
-      "source": {},
-      "weather": null,
+      "source": {
+        "weather": "BoatraceOpenAPI"
+      },
+      "weather": {
+        "wind_speed_m": 2,
+        "wind_direction_number": 7,
+        "wave_cm": 1,
+        "weather_number": 1,
+        "air_temp_c": 29,
+        "water_temp_c": 30
+      },
       "packet": {
         "ok": false,
         "race_key": "20260902-08-01",
@@ -571,8 +580,17 @@
           null,
           null
         ],
-        "weather": null,
-        "source": {},
+        "weather": {
+          "wind_speed_m": 2,
+          "wind_direction_number": 7,
+          "wave_cm": 1,
+          "weather_number": 1,
+          "air_temp_c": 29,
+          "water_temp_c": 30
+        },
+        "source": {
+          "weather": "BoatraceOpenAPI"
+        },
         "diagnostics": [
           {
             "route": "csv_tkz",
@@ -598,9 +616,9 @@
           "st": false,
           "entry": false,
           "tilt": false,
-          "weather": false
+          "weather": true
         },
-        "status": "FIELD_UNRESOLVED",
+        "status": "PARTIAL_LIVE_PACKET",
         "display": {
           "TIME": "1:- 2:- 3:- 4:- 5:- 6:-",
           "ST": "1:- 2:- 3:- 4:- 5:- 6:-",
@@ -614,7 +632,7 @@
     {
       "route": "OpenAPI_today",
       "http": 200,
-      "bytes": 1362817
+      "bytes": 1363461
     }
   ],
   "status": "PRELOAD_READY",
@@ -623,26 +641,26 @@
       "slot": 1,
       "race": "21-5R",
       "close": "2026-09-02 10:17:00",
-      "remain_min": 11,
+      "remain_min": 10,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 2,
       "race": "18-5R",
       "close": "2026-09-02 10:29:00",
-      "remain_min": 23,
+      "remain_min": 22,
       "live": "PARTIAL_LIVE_PACKET"
     },
     {
       "slot": 3,
       "race": "08-1R",
       "close": "2026-09-02 10:34:00",
-      "remain_min": 28,
-      "live": "FIELD_UNRESOLVED"
+      "remain_min": 27,
+      "live": "PARTIAL_LIVE_PACKET"
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-09-02T10:05:50+09:00",
+    "generated_at_jst": "2026-09-02T10:06:50+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
