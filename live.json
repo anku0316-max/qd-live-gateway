@@ -2,7 +2,7 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20260904",
-  "now_jst": "2026-09-04T20:55:49+09:00",
+  "now_jst": "2026-09-04T20:56:50+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
@@ -10,7 +10,7 @@
       "jcd": "24",
       "rno": 8,
       "closed_at": "2026-09-04 20:59:00",
-      "remain_minutes": 3,
+      "remain_minutes": 2,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -224,8 +224,8 @@
       "jcd": "24",
       "rno": 9,
       "closed_at": "2026-09-04 21:25:00",
-      "remain_minutes": 29,
-      "live_status": "FIELD_UNRESOLVED",
+      "remain_minutes": 28,
+      "live_status": "PARTIAL_LIVE_PACKET",
       "race_lock": {
         "ok": true,
         "date": "2026-09-04",
@@ -275,17 +275,27 @@
         "TIME": "1:- 2:- 3:- 4:- 5:- 6:-",
         "ST": "1:- 2:- 3:- 4:- 5:- 6:-",
         "ENTRY": "-",
-        "TILT": "1:- 2:- 3:- 4:- 5:- 6:-"
+        "TILT": "1:0.5 2:0 3:0 4:0 5:0 6:0"
       },
       "complete": {
         "time": false,
         "st": false,
         "entry": false,
-        "tilt": false,
-        "weather": false
+        "tilt": true,
+        "weather": true
       },
-      "source": {},
-      "weather": null,
+      "source": {
+        "tilt": "BoatraceOpenAPI",
+        "weather": "BoatraceOpenAPI"
+      },
+      "weather": {
+        "wind_speed_m": 1,
+        "wind_direction_number": 1,
+        "wave_cm": 1,
+        "weather_number": 3,
+        "air_temp_c": 24,
+        "water_temp_c": 30
+      },
       "packet": {
         "ok": false,
         "race_key": "20260904-24-09",
@@ -360,15 +370,25 @@
           null
         ],
         "tilt": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          0
         ],
-        "weather": null,
-        "source": {},
+        "weather": {
+          "wind_speed_m": 1,
+          "wind_direction_number": 1,
+          "wave_cm": 1,
+          "weather_number": 3,
+          "air_temp_c": 24,
+          "water_temp_c": 30
+        },
+        "source": {
+          "tilt": "BoatraceOpenAPI",
+          "weather": "BoatraceOpenAPI"
+        },
         "diagnostics": [
           {
             "route": "csv_tkz",
@@ -393,15 +413,15 @@
           "time": false,
           "st": false,
           "entry": false,
-          "tilt": false,
-          "weather": false
+          "tilt": true,
+          "weather": true
         },
-        "status": "FIELD_UNRESOLVED",
+        "status": "PARTIAL_LIVE_PACKET",
         "display": {
           "TIME": "1:- 2:- 3:- 4:- 5:- 6:-",
           "ST": "1:- 2:- 3:- 4:- 5:- 6:-",
           "ENTRY": "-",
-          "TILT": "1:- 2:- 3:- 4:- 5:- 6:-"
+          "TILT": "1:0.5 2:0 3:0 4:0 5:0 6:0"
         }
       }
     },
@@ -410,7 +430,7 @@
       "jcd": "24",
       "rno": 10,
       "closed_at": "2026-09-04 21:51:00",
-      "remain_minutes": 55,
+      "remain_minutes": 54,
       "live_status": "FIELD_UNRESOLVED",
       "race_lock": {
         "ok": true,
@@ -596,7 +616,7 @@
     {
       "route": "OpenAPI_today",
       "http": 200,
-      "bytes": 1458608
+      "bytes": 1459235
     }
   ],
   "status": "PRELOAD_READY",
@@ -605,26 +625,26 @@
       "slot": 1,
       "race": "24-8R",
       "close": "2026-09-04 20:59:00",
-      "remain_min": 3,
+      "remain_min": 2,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 2,
       "race": "24-9R",
       "close": "2026-09-04 21:25:00",
-      "remain_min": 29,
-      "live": "FIELD_UNRESOLVED"
+      "remain_min": 28,
+      "live": "PARTIAL_LIVE_PACKET"
     },
     {
       "slot": 3,
       "race": "24-10R",
       "close": "2026-09-04 21:51:00",
-      "remain_min": 55,
+      "remain_min": 54,
       "live": "FIELD_UNRESOLVED"
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-09-04T20:55:51+09:00",
+    "generated_at_jst": "2026-09-04T20:56:51+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
