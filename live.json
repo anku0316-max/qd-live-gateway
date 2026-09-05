@@ -2,7 +2,7 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20260905",
-  "now_jst": "2026-09-05T09:17:50+09:00",
+  "now_jst": "2026-09-05T09:18:49+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
@@ -10,7 +10,7 @@
       "jcd": "10",
       "rno": 3,
       "closed_at": "2026-09-05 09:24:00",
-      "remain_minutes": 6,
+      "remain_minutes": 5,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -224,8 +224,8 @@
       "jcd": "18",
       "rno": 3,
       "closed_at": "2026-09-05 09:36:00",
-      "remain_minutes": 18,
-      "live_status": "FIELD_UNRESOLVED",
+      "remain_minutes": 17,
+      "live_status": "PARTIAL_LIVE_PACKET",
       "race_lock": {
         "ok": true,
         "date": "2026-09-05",
@@ -275,17 +275,27 @@
         "TIME": "1:- 2:- 3:- 4:- 5:- 6:-",
         "ST": "1:- 2:- 3:- 4:- 5:- 6:-",
         "ENTRY": "-",
-        "TILT": "1:- 2:- 3:- 4:- 5:- 6:-"
+        "TILT": "1:0 2:-0.5 3:0 4:0 5:-0.5 6:0"
       },
       "complete": {
         "time": false,
         "st": false,
         "entry": false,
-        "tilt": false,
-        "weather": false
+        "tilt": true,
+        "weather": true
       },
-      "source": {},
-      "weather": null,
+      "source": {
+        "tilt": "BoatraceOpenAPI",
+        "weather": "BoatraceOpenAPI"
+      },
+      "weather": {
+        "wind_speed_m": 2,
+        "wind_direction_number": 3,
+        "wave_cm": 2,
+        "weather_number": 2,
+        "air_temp_c": 24,
+        "water_temp_c": 27
+      },
       "packet": {
         "ok": false,
         "race_key": "20260905-18-03",
@@ -360,15 +370,25 @@
           null
         ],
         "tilt": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          0,
+          -0.5,
+          0,
+          0,
+          -0.5,
+          0
         ],
-        "weather": null,
-        "source": {},
+        "weather": {
+          "wind_speed_m": 2,
+          "wind_direction_number": 3,
+          "wave_cm": 2,
+          "weather_number": 2,
+          "air_temp_c": 24,
+          "water_temp_c": 27
+        },
+        "source": {
+          "tilt": "BoatraceOpenAPI",
+          "weather": "BoatraceOpenAPI"
+        },
         "diagnostics": [
           {
             "route": "csv_tkz",
@@ -393,15 +413,15 @@
           "time": false,
           "st": false,
           "entry": false,
-          "tilt": false,
-          "weather": false
+          "tilt": true,
+          "weather": true
         },
-        "status": "FIELD_UNRESOLVED",
+        "status": "PARTIAL_LIVE_PACKET",
         "display": {
           "TIME": "1:- 2:- 3:- 4:- 5:- 6:-",
           "ST": "1:- 2:- 3:- 4:- 5:- 6:-",
           "ENTRY": "-",
-          "TILT": "1:- 2:- 3:- 4:- 5:- 6:-"
+          "TILT": "1:0 2:-0.5 3:0 4:0 5:-0.5 6:0"
         }
       }
     },
@@ -410,7 +430,7 @@
       "jcd": "11",
       "rno": 1,
       "closed_at": "2026-09-05 10:33:00",
-      "remain_minutes": 75,
+      "remain_minutes": 74,
       "live_status": "FIELD_UNRESOLVED",
       "race_lock": {
         "ok": true,
@@ -596,7 +616,7 @@
     {
       "route": "OpenAPI_today",
       "http": 200,
-      "bytes": 1465328
+      "bytes": 1467284
     }
   ],
   "status": "PRELOAD_READY",
@@ -605,26 +625,26 @@
       "slot": 1,
       "race": "10-3R",
       "close": "2026-09-05 09:24:00",
-      "remain_min": 6,
+      "remain_min": 5,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 2,
       "race": "18-3R",
       "close": "2026-09-05 09:36:00",
-      "remain_min": 18,
-      "live": "FIELD_UNRESOLVED"
+      "remain_min": 17,
+      "live": "PARTIAL_LIVE_PACKET"
     },
     {
       "slot": 3,
       "race": "11-1R",
       "close": "2026-09-05 10:33:00",
-      "remain_min": 75,
+      "remain_min": 74,
       "live": "FIELD_UNRESOLVED"
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-09-05T09:17:51+09:00",
+    "generated_at_jst": "2026-09-05T09:18:50+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
