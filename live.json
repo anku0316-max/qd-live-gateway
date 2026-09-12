@@ -2,7 +2,7 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20260912",
-  "now_jst": "2026-09-12T18:15:50+09:00",
+  "now_jst": "2026-09-12T18:16:50+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
@@ -10,7 +10,7 @@
       "jcd": "12",
       "rno": 8,
       "closed_at": "2026-09-12 18:23:00",
-      "remain_minutes": 7,
+      "remain_minutes": 6,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -71,10 +71,10 @@
         "weather": true
       },
       "source": {
-        "entry": "BoatraceOpenAPI",
-        "st": "BoatraceOpenAPI",
-        "time": "BoatraceOpenAPI",
-        "tilt": "BoatraceOpenAPI",
+        "time": "BoatraceCSV/tkz",
+        "tilt": "BoatraceCSV/tkz",
+        "entry": "BoatraceCSV/stt",
+        "st": "BoatraceCSV/stt",
         "weather": "BoatraceOpenAPI"
       },
       "weather": {
@@ -175,10 +175,10 @@
           "water_temp_c": 26
         },
         "source": {
-          "entry": "BoatraceOpenAPI",
-          "st": "BoatraceOpenAPI",
-          "time": "BoatraceOpenAPI",
-          "tilt": "BoatraceOpenAPI",
+          "time": "BoatraceCSV/tkz",
+          "tilt": "BoatraceCSV/tkz",
+          "entry": "BoatraceCSV/stt",
+          "st": "BoatraceCSV/stt",
           "weather": "BoatraceOpenAPI"
         },
         "diagnostics": [
@@ -186,13 +186,13 @@
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/09/12.csv",
-            "bytes": 25795
+            "bytes": 25980
           },
           {
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/09/12.csv",
-            "bytes": 16006
+            "bytes": 16118
           },
           {
             "route": "csv_sui",
@@ -222,7 +222,7 @@
       "jcd": "20",
       "rno": 8,
       "closed_at": "2026-09-12 18:33:00",
-      "remain_minutes": 17,
+      "remain_minutes": 16,
       "live_status": "PARTIAL_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -392,13 +392,13 @@
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/09/12.csv",
-            "bytes": 25795
+            "bytes": 25980
           },
           {
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/09/12.csv",
-            "bytes": 16006
+            "bytes": 16118
           },
           {
             "route": "csv_sui",
@@ -428,7 +428,7 @@
       "jcd": "24",
       "rno": 8,
       "closed_at": "2026-09-12 18:43:00",
-      "remain_minutes": 27,
+      "remain_minutes": 26,
       "live_status": "PARTIAL_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -598,13 +598,13 @@
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/09/12.csv",
-            "bytes": 25795
+            "bytes": 25980
           },
           {
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/09/12.csv",
-            "bytes": 16006
+            "bytes": 16118
           },
           {
             "route": "csv_sui",
@@ -643,26 +643,26 @@
       "slot": 1,
       "race": "12-8R",
       "close": "2026-09-12 18:23:00",
-      "remain_min": 7,
+      "remain_min": 6,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 2,
       "race": "20-8R",
       "close": "2026-09-12 18:33:00",
-      "remain_min": 17,
+      "remain_min": 16,
       "live": "PARTIAL_LIVE_PACKET"
     },
     {
       "slot": 3,
       "race": "24-8R",
       "close": "2026-09-12 18:43:00",
-      "remain_min": 27,
+      "remain_min": 26,
       "live": "PARTIAL_LIVE_PACKET"
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-09-12T18:15:51+09:00",
+    "generated_at_jst": "2026-09-12T18:16:52+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
