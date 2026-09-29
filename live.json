@@ -2,229 +2,15 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20260929",
-  "now_jst": "2026-09-29T11:23:49+09:00",
+  "now_jst": "2026-09-29T11:24:50+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
       "slot": 1,
-      "jcd": "04",
-      "rno": 2,
-      "closed_at": "2026-09-29 11:26:00",
-      "remain_minutes": 2,
-      "live_status": "VERIFIED_LIVE_PACKET",
-      "race_lock": {
-        "ok": true,
-        "date": "2026-09-29",
-        "stadium_number": 4,
-        "race_number": 2,
-        "closed_at": "2026-09-29 11:26:00",
-        "racers": [
-          {
-            "entry": 1,
-            "name": "塚田 修二",
-            "number": 3377
-          },
-          {
-            "entry": 2,
-            "name": "鳥居塚 孝博",
-            "number": 3686
-          },
-          {
-            "entry": 3,
-            "name": "谷村 一哉",
-            "number": 3961
-          },
-          {
-            "entry": 4,
-            "name": "河合 三弘",
-            "number": 3690
-          },
-          {
-            "entry": 5,
-            "name": "丹下 健",
-            "number": 4139
-          },
-          {
-            "entry": 6,
-            "name": "新田 智彰",
-            "number": 3882
-          }
-        ],
-        "checks": {
-          "date": true,
-          "stadium": true,
-          "race": true,
-          "six_racers": true
-        }
-      },
-      "display": {
-        "TIME": "1:6.87 2:6.91 3:6.91 4:6.86 5:6.86 6:6.85",
-        "ST": "1:.13 2:.07 3:.10 4:.07 5:.03 6:.02",
-        "ENTRY": "1-2-3-4-5-6",
-        "TILT": "1:0 2:0 3:-0.5 4:0 5:0 6:0"
-      },
-      "complete": {
-        "time": true,
-        "st": true,
-        "entry": true,
-        "tilt": true,
-        "weather": true
-      },
-      "source": {
-        "time": "BoatraceCSV/tkz",
-        "tilt": "BoatraceCSV/tkz",
-        "entry": "BoatraceCSV/stt",
-        "st": "BoatraceCSV/stt",
-        "weather": "BoatraceCSV/sui"
-      },
-      "weather": {
-        "observed_at": "1058",
-        "wind_speed_m": 2,
-        "wind_direction": "5",
-        "wave_cm": 3,
-        "weather": "3",
-        "air_temp_c": 21,
-        "water_temp_c": 25
-      },
-      "packet": {
-        "ok": true,
-        "race_key": "20260929-04-02",
-        "race_code": "202609290402",
-        "race_lock": {
-          "ok": true,
-          "date": "2026-09-29",
-          "stadium_number": 4,
-          "race_number": 2,
-          "closed_at": "2026-09-29 11:26:00",
-          "racers": [
-            {
-              "entry": 1,
-              "name": "塚田 修二",
-              "number": 3377
-            },
-            {
-              "entry": 2,
-              "name": "鳥居塚 孝博",
-              "number": 3686
-            },
-            {
-              "entry": 3,
-              "name": "谷村 一哉",
-              "number": 3961
-            },
-            {
-              "entry": 4,
-              "name": "河合 三弘",
-              "number": 3690
-            },
-            {
-              "entry": 5,
-              "name": "丹下 健",
-              "number": 4139
-            },
-            {
-              "entry": 6,
-              "name": "新田 智彰",
-              "number": 3882
-            }
-          ],
-          "checks": {
-            "date": true,
-            "stadium": true,
-            "race": true,
-            "six_racers": true
-          }
-        },
-        "exhibition_time": [
-          6.87,
-          6.91,
-          6.91,
-          6.86,
-          6.86,
-          6.85
-        ],
-        "exhibition_st": [
-          ".13",
-          ".07",
-          ".10",
-          ".07",
-          ".03",
-          ".02"
-        ],
-        "exhibition_entry": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
-        "tilt": [
-          0,
-          0,
-          -0.5,
-          0,
-          0,
-          0
-        ],
-        "weather": {
-          "observed_at": "1058",
-          "wind_speed_m": 2,
-          "wind_direction": "5",
-          "wave_cm": 3,
-          "weather": "3",
-          "air_temp_c": 21,
-          "water_temp_c": 25
-        },
-        "source": {
-          "time": "BoatraceCSV/tkz",
-          "tilt": "BoatraceCSV/tkz",
-          "entry": "BoatraceCSV/stt",
-          "st": "BoatraceCSV/stt",
-          "weather": "BoatraceCSV/sui"
-        },
-        "diagnostics": [
-          {
-            "route": "csv_tkz",
-            "http": 200,
-            "url": "https://boatracecsv.github.io/data/previews/tkz/2026/09/29.csv",
-            "bytes": 4616
-          },
-          {
-            "route": "csv_stt",
-            "http": 200,
-            "url": "https://boatracecsv.github.io/data/previews/stt/2026/09/29.csv",
-            "bytes": 2855
-          },
-          {
-            "route": "csv_sui",
-            "http": 200,
-            "url": "https://boatracecsv.github.io/data/previews/sui/2026/09/29.csv",
-            "bytes": 2397
-          }
-        ],
-        "complete": {
-          "time": true,
-          "st": true,
-          "entry": true,
-          "tilt": true,
-          "weather": true
-        },
-        "status": "VERIFIED_LIVE_PACKET",
-        "display": {
-          "TIME": "1:6.87 2:6.91 3:6.91 4:6.86 5:6.86 6:6.85",
-          "ST": "1:.13 2:.07 3:.10 4:.07 5:.03 6:.02",
-          "ENTRY": "1-2-3-4-5-6",
-          "TILT": "1:0 2:0 3:-0.5 4:0 5:0 6:0"
-        }
-      }
-    },
-    {
-      "slot": 2,
       "jcd": "14",
       "rno": 7,
       "closed_at": "2026-09-29 11:29:00",
-      "remain_minutes": 5,
+      "remain_minutes": 4,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -434,11 +220,11 @@
       }
     },
     {
-      "slot": 3,
+      "slot": 2,
       "jcd": "05",
       "rno": 2,
       "closed_at": "2026-09-29 11:33:00",
-      "remain_minutes": 9,
+      "remain_minutes": 8,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -644,6 +430,218 @@
           "TILT": "1:-0.5 2:-0.5 3:-0.5 4:-0.5 5:-0.5 6:-0.5"
         }
       }
+    },
+    {
+      "slot": 3,
+      "jcd": "21",
+      "rno": 7,
+      "closed_at": "2026-09-29 11:35:00",
+      "remain_minutes": 10,
+      "live_status": "VERIFIED_LIVE_PACKET",
+      "race_lock": {
+        "ok": true,
+        "date": "2026-09-29",
+        "stadium_number": 21,
+        "race_number": 7,
+        "closed_at": "2026-09-29 11:35:00",
+        "racers": [
+          {
+            "entry": 1,
+            "name": "中村 かなえ",
+            "number": 4998
+          },
+          {
+            "entry": 2,
+            "name": "喜多 那由夏",
+            "number": 4246
+          },
+          {
+            "entry": 3,
+            "name": "石村 日奈那",
+            "number": 5365
+          },
+          {
+            "entry": 4,
+            "name": "西村 歩",
+            "number": 4243
+          },
+          {
+            "entry": 5,
+            "name": "稲生 夏季",
+            "number": 4484
+          },
+          {
+            "entry": 6,
+            "name": "川原 愛未",
+            "number": 5227
+          }
+        ],
+        "checks": {
+          "date": true,
+          "stadium": true,
+          "race": true,
+          "six_racers": true
+        }
+      },
+      "display": {
+        "TIME": "1:6.8 2:6.83 3:6.78 4:6.83 5:6.94 6:6.83",
+        "ST": "1:.05 2:.08 3:.08 4:.06 5:.17 6:.06",
+        "ENTRY": "1-2-3-4-5-6",
+        "TILT": "1:-0.5 2:0 3:-0.5 4:0 5:0 6:0"
+      },
+      "complete": {
+        "time": true,
+        "st": true,
+        "entry": true,
+        "tilt": true,
+        "weather": true
+      },
+      "source": {
+        "entry": "BoatraceOpenAPI",
+        "st": "BoatraceOpenAPI",
+        "time": "BoatraceOpenAPI",
+        "tilt": "BoatraceOpenAPI",
+        "weather": "BoatraceOpenAPI"
+      },
+      "weather": {
+        "wind_speed_m": 2,
+        "wind_direction_number": 1,
+        "wave_cm": 2,
+        "weather_number": 2,
+        "air_temp_c": 23.1,
+        "water_temp_c": 24
+      },
+      "packet": {
+        "ok": true,
+        "race_key": "20260929-21-07",
+        "race_code": "202609292107",
+        "race_lock": {
+          "ok": true,
+          "date": "2026-09-29",
+          "stadium_number": 21,
+          "race_number": 7,
+          "closed_at": "2026-09-29 11:35:00",
+          "racers": [
+            {
+              "entry": 1,
+              "name": "中村 かなえ",
+              "number": 4998
+            },
+            {
+              "entry": 2,
+              "name": "喜多 那由夏",
+              "number": 4246
+            },
+            {
+              "entry": 3,
+              "name": "石村 日奈那",
+              "number": 5365
+            },
+            {
+              "entry": 4,
+              "name": "西村 歩",
+              "number": 4243
+            },
+            {
+              "entry": 5,
+              "name": "稲生 夏季",
+              "number": 4484
+            },
+            {
+              "entry": 6,
+              "name": "川原 愛未",
+              "number": 5227
+            }
+          ],
+          "checks": {
+            "date": true,
+            "stadium": true,
+            "race": true,
+            "six_racers": true
+          }
+        },
+        "exhibition_time": [
+          6.8,
+          6.83,
+          6.78,
+          6.83,
+          6.94,
+          6.83
+        ],
+        "exhibition_st": [
+          ".05",
+          ".08",
+          ".08",
+          ".06",
+          ".17",
+          ".06"
+        ],
+        "exhibition_entry": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "tilt": [
+          -0.5,
+          0,
+          -0.5,
+          0,
+          0,
+          0
+        ],
+        "weather": {
+          "wind_speed_m": 2,
+          "wind_direction_number": 1,
+          "wave_cm": 2,
+          "weather_number": 2,
+          "air_temp_c": 23.1,
+          "water_temp_c": 24
+        },
+        "source": {
+          "entry": "BoatraceOpenAPI",
+          "st": "BoatraceOpenAPI",
+          "time": "BoatraceOpenAPI",
+          "tilt": "BoatraceOpenAPI",
+          "weather": "BoatraceOpenAPI"
+        },
+        "diagnostics": [
+          {
+            "route": "csv_tkz",
+            "http": 200,
+            "url": "https://boatracecsv.github.io/data/previews/tkz/2026/09/29.csv",
+            "bytes": 4616
+          },
+          {
+            "route": "csv_stt",
+            "http": 200,
+            "url": "https://boatracecsv.github.io/data/previews/stt/2026/09/29.csv",
+            "bytes": 2855
+          },
+          {
+            "route": "csv_sui",
+            "http": 200,
+            "url": "https://boatracecsv.github.io/data/previews/sui/2026/09/29.csv",
+            "bytes": 2397
+          }
+        ],
+        "complete": {
+          "time": true,
+          "st": true,
+          "entry": true,
+          "tilt": true,
+          "weather": true
+        },
+        "status": "VERIFIED_LIVE_PACKET",
+        "display": {
+          "TIME": "1:6.8 2:6.83 3:6.78 4:6.83 5:6.94 6:6.83",
+          "ST": "1:.05 2:.08 3:.08 4:.06 5:.17 6:.06",
+          "ENTRY": "1-2-3-4-5-6",
+          "TILT": "1:-0.5 2:0 3:-0.5 4:0 5:0 6:0"
+        }
+      }
     }
   ],
   "diagnostics": [
@@ -657,28 +655,28 @@
   "summary": [
     {
       "slot": 1,
-      "race": "04-2R",
-      "close": "2026-09-29 11:26:00",
-      "remain_min": 2,
+      "race": "14-7R",
+      "close": "2026-09-29 11:29:00",
+      "remain_min": 4,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 2,
-      "race": "14-7R",
-      "close": "2026-09-29 11:29:00",
-      "remain_min": 5,
+      "race": "05-2R",
+      "close": "2026-09-29 11:33:00",
+      "remain_min": 8,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 3,
-      "race": "05-2R",
-      "close": "2026-09-29 11:33:00",
-      "remain_min": 9,
+      "race": "21-7R",
+      "close": "2026-09-29 11:35:00",
+      "remain_min": 10,
       "live": "VERIFIED_LIVE_PACKET"
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-09-29T11:23:50+09:00",
+    "generated_at_jst": "2026-09-29T11:24:52+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
