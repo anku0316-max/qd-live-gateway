@@ -2,7 +2,7 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20261003",
-  "now_jst": "2026-10-03T09:06:50+09:00",
+  "now_jst": "2026-10-03T09:07:50+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
@@ -10,8 +10,8 @@
       "jcd": "18",
       "rno": 2,
       "closed_at": "2026-10-03 09:13:00",
-      "remain_minutes": 6,
-      "live_status": "PARTIAL_LIVE_PACKET",
+      "remain_minutes": 5,
+      "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
         "date": "2026-10-03",
@@ -58,32 +58,36 @@
         }
       },
       "display": {
-        "TIME": "1:- 2:- 3:- 4:- 5:- 6:-",
-        "ST": "1:- 2:- 3:- 4:- 5:- 6:-",
-        "ENTRY": "-",
+        "TIME": "1:6.93 2:6.93 3:6.94 4:6.93 5:6.92 6:6.92",
+        "ST": "1:.08 2:.16 3:.13 4:.06 5:.12 6:.19",
+        "ENTRY": "1-2-3-4-5-6",
         "TILT": "1:0 2:0 3:0 4:0 5:0 6:0"
       },
       "complete": {
-        "time": false,
-        "st": false,
-        "entry": false,
+        "time": true,
+        "st": true,
+        "entry": true,
         "tilt": true,
         "weather": true
       },
       "source": {
-        "tilt": "BoatraceOpenAPI",
-        "weather": "BoatraceOpenAPI"
+        "time": "BoatraceCSV/tkz",
+        "tilt": "BoatraceCSV/tkz",
+        "entry": "BoatraceCSV/stt",
+        "st": "BoatraceCSV/stt",
+        "weather": "BoatraceCSV/sui"
       },
       "weather": {
+        "observed_at": "0805",
         "wind_speed_m": 2,
-        "wind_direction_number": 15,
+        "wind_direction": "1",
         "wave_cm": 2,
-        "weather_number": 1,
+        "weather": "1",
         "air_temp_c": 20,
         "water_temp_c": 24
       },
       "packet": {
-        "ok": false,
+        "ok": true,
         "race_key": "20261003-18-02",
         "race_code": "202610031802",
         "race_lock": {
@@ -132,28 +136,28 @@
           }
         },
         "exhibition_time": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          6.93,
+          6.93,
+          6.94,
+          6.93,
+          6.92,
+          6.92
         ],
         "exhibition_st": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          ".08",
+          ".16",
+          ".13",
+          ".06",
+          ".12",
+          ".19"
         ],
         "exhibition_entry": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
         ],
         "tilt": [
           0,
@@ -164,49 +168,53 @@
           0
         ],
         "weather": {
+          "observed_at": "0805",
           "wind_speed_m": 2,
-          "wind_direction_number": 15,
+          "wind_direction": "1",
           "wave_cm": 2,
-          "weather_number": 1,
+          "weather": "1",
           "air_temp_c": 20,
           "water_temp_c": 24
         },
         "source": {
-          "tilt": "BoatraceOpenAPI",
-          "weather": "BoatraceOpenAPI"
+          "time": "BoatraceCSV/tkz",
+          "tilt": "BoatraceCSV/tkz",
+          "entry": "BoatraceCSV/stt",
+          "st": "BoatraceCSV/stt",
+          "weather": "BoatraceCSV/sui"
         },
         "diagnostics": [
           {
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/10/03.csv",
-            "bytes": 808
+            "bytes": 988
           },
           {
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/10/03.csv",
-            "bytes": 480
+            "bytes": 592
           },
           {
             "route": "csv_sui",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/sui/2026/10/03.csv",
-            "bytes": 363
+            "bytes": 460
           }
         ],
         "complete": {
-          "time": false,
-          "st": false,
-          "entry": false,
+          "time": true,
+          "st": true,
+          "entry": true,
           "tilt": true,
           "weather": true
         },
-        "status": "PARTIAL_LIVE_PACKET",
+        "status": "VERIFIED_LIVE_PACKET",
         "display": {
-          "TIME": "1:- 2:- 3:- 4:- 5:- 6:-",
-          "ST": "1:- 2:- 3:- 4:- 5:- 6:-",
-          "ENTRY": "-",
+          "TIME": "1:6.93 2:6.93 3:6.94 4:6.93 5:6.92 6:6.92",
+          "ST": "1:.08 2:.16 3:.13 4:.06 5:.12 6:.19",
+          "ENTRY": "1-2-3-4-5-6",
           "TILT": "1:0 2:0 3:0 4:0 5:0 6:0"
         }
       }
@@ -216,7 +224,7 @@
       "jcd": "23",
       "rno": 3,
       "closed_at": "2026-10-03 09:27:00",
-      "remain_minutes": 20,
+      "remain_minutes": 19,
       "live_status": "PARTIAL_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -386,19 +394,19 @@
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/10/03.csv",
-            "bytes": 808
+            "bytes": 988
           },
           {
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/10/03.csv",
-            "bytes": 480
+            "bytes": 592
           },
           {
             "route": "csv_sui",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/sui/2026/10/03.csv",
-            "bytes": 363
+            "bytes": 460
           }
         ],
         "complete": {
@@ -422,7 +430,7 @@
       "jcd": "11",
       "rno": 1,
       "closed_at": "2026-10-03 10:29:00",
-      "remain_minutes": 82,
+      "remain_minutes": 81,
       "live_status": "FIELD_UNRESOLVED",
       "race_lock": {
         "ok": true,
@@ -572,19 +580,19 @@
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/10/03.csv",
-            "bytes": 808
+            "bytes": 988
           },
           {
             "route": "csv_stt",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/stt/2026/10/03.csv",
-            "bytes": 480
+            "bytes": 592
           },
           {
             "route": "csv_sui",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/sui/2026/10/03.csv",
-            "bytes": 363
+            "bytes": 460
           }
         ],
         "complete": {
@@ -617,26 +625,26 @@
       "slot": 1,
       "race": "18-2R",
       "close": "2026-10-03 09:13:00",
-      "remain_min": 6,
-      "live": "PARTIAL_LIVE_PACKET"
+      "remain_min": 5,
+      "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 2,
       "race": "23-3R",
       "close": "2026-10-03 09:27:00",
-      "remain_min": 20,
+      "remain_min": 19,
       "live": "PARTIAL_LIVE_PACKET"
     },
     {
       "slot": 3,
       "race": "11-1R",
       "close": "2026-10-03 10:29:00",
-      "remain_min": 82,
+      "remain_min": 81,
       "live": "FIELD_UNRESOLVED"
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-10-03T09:06:53+09:00",
+    "generated_at_jst": "2026-10-03T09:07:50+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
