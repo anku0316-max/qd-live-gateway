@@ -2,7 +2,7 @@
   "ok": true,
   "mode": "AUTO_PRELOAD",
   "date": "20261008",
-  "now_jst": "2026-10-08T18:28:49+09:00",
+  "now_jst": "2026-10-08T18:26:50+09:00",
   "cutoff_minutes": 2,
   "candidates": [
     {
@@ -10,7 +10,7 @@
       "jcd": "20",
       "rno": 2,
       "closed_at": "2026-10-08 18:34:00",
-      "remain_minutes": 5,
+      "remain_minutes": 7,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -71,11 +71,11 @@
         "weather": true
       },
       "source": {
-        "time": "BoatraceCSV/tkz",
-        "tilt": "BoatraceCSV/tkz",
         "entry": "BoatraceCSV/stt",
         "st": "BoatraceCSV/stt",
-        "weather": "BoatraceCSV/sui"
+        "weather": "BoatraceCSV/sui",
+        "time": "BoatraceOpenAPI",
+        "tilt": "BoatraceOpenAPI"
       },
       "weather": {
         "observed_at": "1811",
@@ -177,18 +177,18 @@
           "water_temp_c": 23
         },
         "source": {
-          "time": "BoatraceCSV/tkz",
-          "tilt": "BoatraceCSV/tkz",
           "entry": "BoatraceCSV/stt",
           "st": "BoatraceCSV/stt",
-          "weather": "BoatraceCSV/sui"
+          "weather": "BoatraceCSV/sui",
+          "time": "BoatraceOpenAPI",
+          "tilt": "BoatraceOpenAPI"
         },
         "diagnostics": [
           {
             "route": "csv_tkz",
             "http": 200,
             "url": "https://boatracecsv.github.io/data/previews/tkz/2026/10/08.csv",
-            "bytes": 22116
+            "bytes": 21930
           },
           {
             "route": "csv_stt",
@@ -224,7 +224,7 @@
       "jcd": "24",
       "rno": 8,
       "closed_at": "2026-10-08 18:41:00",
-      "remain_minutes": 12,
+      "remain_minutes": 14,
       "live_status": "VERIFIED_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -436,7 +436,7 @@
       "jcd": "01",
       "rno": 8,
       "closed_at": "2026-10-08 18:48:00",
-      "remain_minutes": 19,
+      "remain_minutes": 21,
       "live_status": "PARTIAL_LIVE_PACKET",
       "race_lock": {
         "ok": true,
@@ -642,7 +642,7 @@
     {
       "route": "OpenAPI_today",
       "http": 200,
-      "bytes": 1328798
+      "bytes": 1328711
     }
   ],
   "status": "PRELOAD_READY",
@@ -651,26 +651,26 @@
       "slot": 1,
       "race": "20-2R",
       "close": "2026-10-08 18:34:00",
-      "remain_min": 5,
+      "remain_min": 7,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 2,
       "race": "24-8R",
       "close": "2026-10-08 18:41:00",
-      "remain_min": 12,
+      "remain_min": 14,
       "live": "VERIFIED_LIVE_PACKET"
     },
     {
       "slot": 3,
       "race": "01-8R",
       "close": "2026-10-08 18:48:00",
-      "remain_min": 19,
+      "remain_min": 21,
       "live": "PARTIAL_LIVE_PACKET"
     }
   ],
   "github_mirror": {
-    "generated_at_jst": "2026-10-08T18:28:50+09:00",
+    "generated_at_jst": "2026-10-08T18:28:52+09:00",
     "gateway": "QD LIVE Gateway v0.6 AUTO PRELOAD"
   }
 }
